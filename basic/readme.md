@@ -31,3 +31,32 @@
 - [https://docs.djangoproject.com/en/4.0/ref/models/fields/#field-types](https://docs.djangoproject.com/en/4.0/ref/models/fields/#field-types)
 - [https://docs.djangoproject.com/en/4.0/ref/models/fields/#field-options](https://docs.djangoproject.com/en/4.0/ref/models/fields/#field-options)
 
+---
+
+### 만든 결과
+
+- /admin 확인
+    - 계정 : admin
+    - P/W : 0000
+
+- 글 Upload
+    - category list 확인
+
+![image](https://user-images.githubusercontent.com/67627129/163858344-11d1876a-5879-4c93-8c8c-505a6d2a9c68.png)
+
+- 데이터 변경에 따른 최종 수정일자 확인
+
+![image](https://user-images.githubusercontent.com/67627129/163858865-0ea78f9c-c4b5-4db2-88e6-6d549eb21238.png)
+
+---
+
+### 특이사항
+
+- 요구사항 확인
+    - 모델(=테이블)만 제작
+    - 질문, 답변 모두 한 모델 안에 있음
+
+- 부족한 부분
+    - 자동 로그인이 아니다
+    - 생성자, 최종 수정자 두 가지는 로그인 정보가 없어서 계정 정보로 선택
+
